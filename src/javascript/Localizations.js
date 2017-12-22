@@ -441,6 +441,23 @@ const Localizations = {
     'zh_CN': "与其他许多加密货币不同，世界各地的商家已经接受了Myriad！",
     'zh_TW': "與其他許多加密貨幣不同，世界各地的商家已經接受了Myriad！"
   },
+  'buy-on-text': {
+    "ar":"شراء على",
+    "da":"Køb videre",
+    "de":"Kaufen Sie weiter",
+    "es":"Comprar en",
+    "fr":"Acheter sur",
+    "it":"Acquista su",
+    "ja":"購入する",
+    "ko":"구입",
+    "nl":"Koop op",
+    "pl":"Kupić na",
+    "pt":"Comprar em",
+    "ro":"Cumpără de pe",
+    "ru":"Купить",
+    "zh_CN":"买上",
+    "zh_TW":"買上"
+  },
   'buy-view-merchants-button': {
     'ar': "عرض التجار",
     'da': "Se Forhandlere",

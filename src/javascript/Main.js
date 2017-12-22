@@ -1,6 +1,15 @@
 $(function() {
   // load localizations
   const language = url('?lang') || 'en';
+  var browserLanguage = (navigator) ? navigator.language : undefined;
+
+  if (browserLanguage && !url('?lang')) {
+    browserLanguage = browserLanguage.replace('-', '_');
+
+    if (browserLanguage.indexOf('en') === -1) {
+      window.location = '/?lang=' + browserLanguage;
+    }
+  }
 
   if ($.inArray(language, Localizations.languages)) {
     $.each(Localizations, function(localizationCode, value) {

@@ -1,4 +1,14 @@
 $(function() {
+  // load localizations
+  const language = url('?lang') || 'en';
+
+  if ($.inArray(language, Localizations.languages)) {
+    $.each(Localizations, function(localizationCode, value) {
+      $('[localization="' + localizationCode + '"]').text(value[language]);
+    });
+  }
+
+  // scroll functionality
   $('.view-section').click(function(e) {
     e.preventDefault();
 
@@ -6,7 +16,7 @@ $(function() {
     const headerHeight = $('#header').outerHeight();
 
     $('html, body').animate({
-      scrollTop: $('#' + section).offset().top - headerHeight
+      scrollTop: $('#' + section).offset().top - headerHeight + 1
     });
   });
 

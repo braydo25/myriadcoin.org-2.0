@@ -14,6 +14,8 @@
 
     <script type="text/javascript" src="/dependencies/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/dependencies/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/dependencies/js-url/url.min.js"></script>
+    <script type="text/javascript" src="/javascript/Localizations.js"></script>
     <script type="text/javascript" src="/javascript/Main.js"></script>
   </head>
   <body>

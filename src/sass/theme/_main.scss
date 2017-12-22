@@ -37,6 +37,38 @@
     }
   }
 
+  .open-language-dropdown {
+    position: relative;
+
+    i {
+      position: absolute;
+      right: 15px;
+      top: 6px;
+    }
+  }
+
+  .language-dropdown {
+    left: initial;
+    right: 30px;
+    width: 250px;
+
+    li:not(:last-child) {
+      border-bottom: 1px solid $color-silver;
+    }
+
+    a {
+      display: block;
+      line-height: 40px;
+      color: $color-shark;
+      text-align: center;
+
+      &:hover {
+        background: $color-shark;
+        color: $color-white;
+      }
+    }
+  }
+
   @media (max-width: $screen-sm-min) {
     .btn {
       padding:5px 12px;
@@ -49,7 +81,7 @@
   width: 100%;
   min-height: calc(100vh - 2vh);
   color: $color-white;
-  background: url(/images/hero-background.jpg) no-repeat bottom;
+  background: url(/images/hero-background.jpg) no-repeat left;
   background-size: cover;
   position: relative;
 

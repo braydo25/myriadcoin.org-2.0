@@ -12,6 +12,7 @@
       "Configuration": true,
       "Module": true,
       "Scaling": true,
+      "Localizations": true,
       "UI": true,
       "doT": true,
       "dot": true,
@@ -28,10 +29,6 @@
         "linebreak-style": [
             "error",
             "unix"
-        ],
-        "quotes": [
-            "error",
-            "single"
         ],
         "semi": [
             "error",

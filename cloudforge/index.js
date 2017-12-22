@@ -27,5 +27,6 @@ module.exports = new CloudForge({
     ['./src/images', './build/images'],
     ['./src/javascript', './build/javascript'],
     ['./src/dependencies', './build/dependencies'],
+    ['./src/dependencies/flag-icon-css/flags', './build/flags'],
   ],
 });

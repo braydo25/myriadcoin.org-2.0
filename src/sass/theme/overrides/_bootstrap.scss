@@ -44,7 +44,7 @@ a:hover {
   border: 1px solid $color-white;
 }
 
-.btn-shark:hover, .btn-shark:active, .btn-wisteria:focus {
+.btn-shark:hover, .btn-shark:active, .btn-shark:focus {
   background: $color-white;
   color: $color-shark;
   border: 1px solid $color-shark;
@@ -57,9 +57,9 @@ a:hover {
 }
 
 .btn-wisteria:hover, .btn-wisteria:active, .btn-wisteria:focus {
-  background: #A875D6;
-  color: $color-white;
-  border: 1px solid #A875D6;
+  background: $color-white;
+  color: $color-wisteria;
+  border: 1px solid $color-wisteria;
 }
 
 .panel {

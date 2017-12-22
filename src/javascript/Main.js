@@ -1,4 +1,16 @@
 $(function() {
+  $('.view-section').click(function(e) {
+    e.preventDefault();
+
+    const section = $(this).attr('section');
+    const headerHeight = $('#header').outerHeight();
+
+    $('html, body').animate({
+      scrollTop: $('#' + section).offset().top - headerHeight
+    });
+  });
+
+
   $(window).scroll(function() {
     const scrollTop = $(document).scrollTop();
     const heroHeight = $('#hero').height();
